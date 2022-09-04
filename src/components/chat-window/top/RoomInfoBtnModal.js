@@ -1,4 +1,4 @@
-import React,{memo} from 'react';
+import React, { memo } from 'react';
 import { Button, Modal } from 'rsuite';
 import { useCurrentRoom } from '../../../context/current-room.context';
 import { useModalState } from '../../../misc/custom-hooks';
@@ -7,6 +7,7 @@ const RoomInfoBtnModal = () => {
   const { isOpen, close, open } = useModalState();
   const description = useCurrentRoom(v => v.description);
   const name = useCurrentRoom(v => v.name);
+
   return (
     <>
       <Button appearance="link" className="px-0" onClick={open}>

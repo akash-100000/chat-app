@@ -1,11 +1,13 @@
 import React from 'react';
-import {Avatar} from 'rsuite';
+import { Avatar } from 'rsuite';
 import { getNameInitials } from '../misc/helpers';
 
-const ProfileAvatar = ({name, ...avatarprops}) => {
+const ProfileAvatar = ({ name, ...avatarProps }) => {
   return (
-   <Avatar circle {...avatarprops}>{getNameInitials}</Avatar>
-  )
-}
+    <Avatar circle {...avatarProps}>
+      {getNameInitials(name)}
+    </Avatar>
+  );
+};
 
-export default ProfileAvatar
+export default ProfileAvatar;

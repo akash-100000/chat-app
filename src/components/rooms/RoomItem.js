@@ -4,6 +4,7 @@ import ProfileAvatar from '../ProfileAvatar';
 
 const RoomItem = ({ room }) => {
   const { createdAt, name, lastMessage } = room;
+  
 
   return (
     <div>
