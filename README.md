@@ -69,4 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-Firebase Deployed Link : https://chat-web-app-3b6a5.web.app/signin
+Firebase Deployed Link : https://chat-web-app-3b6a5.web.app/
